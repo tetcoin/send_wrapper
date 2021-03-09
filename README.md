@@ -1,4 +1,4 @@
-SendWrapper
+TetsySendWrapper
 ===========
 
 This [Rust] library implements a wrapper type called `SendWrapper` which allows you to move around non-[`Send`] types
