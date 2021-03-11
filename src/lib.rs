@@ -23,7 +23,7 @@
 //! # Examples
 //!
 //! ```rust
-//! use send_wrapper::SendWrapper;
+//! use tetsy_send_wrapper::SendWrapper;
 //! use std::rc::Rc;
 //! use std::thread;
 //! use std::sync::mpsc::channel;
@@ -69,7 +69,7 @@
 //!
 //! # License
 //!
-//! `send_wrapper` is distributed under the terms of both the MIT license and the Apache License (Version 2.0).
+//! `tetsy_send_wrapper` is distributed under the terms of both the MIT license and the Apache License (Version 2.0).
 //!
 //! See LICENSE-APACHE.txt, and LICENSE-MIT.txt for details.
 //!

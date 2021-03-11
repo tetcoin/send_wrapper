@@ -15,12 +15,12 @@ executed in the main thread [using `Glib`]. This way you can know, that the [`gt
 accessed in the main thread and will also be dropped there. This library makes it possible that [`gtk-rs`] structs
 can leave the main thread at all, like required in the given
 
-[Documentation](https://docs.rs/send_wrapper)
+[Documentation](https://docs.rs/tetsy-send-wrapper)
 
 # Examples
 
 ```rust
-use send_wrapper::SendWrapper;
+use tetsy_send_wrapper::SendWrapper;
 use std::rc::Rc;
 use std::thread;
 use std::sync::mpsc::channel;
@@ -66,7 +66,7 @@ let value = wrapped_value.deref();
 
 # License
 
-`send_wrapper` is distributed under the terms of both the MIT license and the Apache License (Version 2.0).
+`tetsy-send-wrapper` is distributed under the terms of both the MIT license and the Apache License (Version 2.0).
 
 See LICENSE-APACHE, and LICENSE-MIT for details.
 
