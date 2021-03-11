@@ -195,7 +195,7 @@ impl<T> Drop for SendWrapper<T> {
 #[cfg(test)]
 mod tests {
 
-	use SendWrapper;
+	use crate::SendWrapper;
 	use std::thread;
 	use std::sync::mpsc::channel;
 	use std::ops::Deref;
