@@ -1,5 +1,5 @@
 [package]
-name = "parity-send-wrapper"
+name = "tetsy-send-wrapper"
 version = "0.1.0"
 authors = ["Thomas Keh", "Parity Technologies <admin@parity.io>"]
 license = "MIT/Apache-2.0"
